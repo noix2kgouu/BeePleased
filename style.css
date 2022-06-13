@@ -1,96 +1,112 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
-h3, h2, h1, p{
+
+h3,
+h2,
+h1,
+p {
     margin: 0px;
 }
+
 html {
     scroll-behavior: smooth;
-  }
-body{
+}
+
+body {
     margin: 0;
     background-color: #FFD60A;
 }
-header nav{
+
+header nav {
     background-color: #FFD60A;
     height: 75px;
 
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 
     font-family: 'Spline Sans Mono', monospace;
     font-size: 21px;
 }
-header nav a{
+
+header nav a {
     color: #003566;
     text-decoration: none;
     margin: 0px 35px;
     transition: all 0.3s ease-out;
 
 }
-header nav a:hover{
+
+header nav a:hover {
     color: #000814;
     font-size: 22px;
 }
-#logotop img{
+
+#logotop img {
     width: 80px;
 }
-#backgroundTop{
+
+#backgroundTop {
     width: 100%;
     margin: 0px;
     margin-bottom: -4px;
 }
 
-#presentation{
-    background-color: #003566;  
+#presentation {
+    background-color: #003566;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:80px 350px;
+    padding: 80px 350px;
     color: #FFC300;
     text-align: center;
 }
 
-#presentation h1{
+#presentation h1 {
     margin: 12px 0px 0px 0px;
     font-family: 'Nunito', sans-serif;
     font-size: 34px;
 }
-#presentation h3{
+
+#presentation h3 {
     font-family: 'Kanit', sans-serif;
     font-size: 21PX;
     color: #FFD60A;
 }
-.barreHorizontal{
+
+.barreHorizontal {
     height: 2px;
     width: 10%;
     background-color: white;
     margin: 30px;
 }
-#presentation p, #seminaire p, #conference p{
+
+#presentation p,
+#seminaire p,
+#conference p {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
 }
 
-#reseauxfirst{
+#reseauxfirst {
     display: flex;
 }
-#reseauxfirst a{
+
+#reseauxfirst a {
     width: 45px;
     height: 45px;
 
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 
     margin: 50px 4px 0px 4px;
 
-    border-radius:50%;
+    border-radius: 50%;
 
     border-style: solid;
     border-width: 1px;
@@ -101,24 +117,28 @@ header nav a:hover{
 
     text-decoration: none;
 }
-.instagram:hover{
+
+.instagram:hover {
     background: #D60060;
     transform: rotate(360deg);
 }
-.facebook:hover{
+
+.facebook:hover {
     background: #1877f2;
     transform: rotate(360deg);
 }
-.youtube:hover{
+
+.youtube:hover {
     background: #f20000;
     transform: rotate(360deg);
 }
-.linkedin:hover{
+
+.linkedin:hover {
     background: #016ca8;
     transform: rotate(360deg);
 }
 
-#seminaire{
+#seminaire {
     margin-top: 15px;
     background: #001d3d;
     color: white;
@@ -129,69 +149,96 @@ header nav a:hover{
     text-align: center;
     flex-wrap: wrap;
 }
-#seminaire article{
+
+#seminaire article {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#seminaire h2, #conference h2{
+
+#seminaire h2,
+#conference h2 {
     font-family: 'Nunito', sans-serif;
     font-size: 34px;
 }
+
 #seminaireTop {
-    padding:0 350px;
+    padding: 0 350px;
     margin-top: 40px;
     margin-bottom: 120px;
 }
+
 #programme {
     width: 40%;
     padding: 0 5% 0 5%;
 }
-#programme div{
+
+#programme div {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-#programme h4{
+#programme h4 {
     font-family: 'Tiro Devanagari Hindi', serif;
     font-size: 20px;
 }
-.impair{
+
+.impair {
     color: #FFC300;
 }
-#diaporama{
+
+#diaporama {
     width: 45%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 
-    -moz-user-select: none; /* Firefox */
-    -webkit-user-select: none; /* Chrome, Safari, Opéra depuis la version 15 */
-    -ms-user-select: none; /* Internet explorer depuis la version 10 et Edge */
-    user-select: none; /* Propriété standard */
+    -moz-user-select: none;
+    /* Firefox */
+    -webkit-user-select: none;
+    /* Chrome, Safari, Opéra depuis la version 15 */
+    -ms-user-select: none;
+    /* Internet explorer depuis la version 10 et Edge */
+    user-select: none;
+    /* Propriété standard */
 }
-#imageAcitivity{
+
+#imageAcitivity {
     width: 85%;
 }
-iframe{
+
+iframe {
     border-radius: 8px;
 }
-#logotop,#backgroundTop, iframe, .inputnewsletter,#labelCondition, img,#footerbottom{
-    -moz-user-select: none; /* Firefox */
-    -webkit-user-select: none; /* Chrome, Safari, Opéra depuis la version 15 */
-    -ms-user-select: none; /* Internet explorer depuis la version 10 et Edge */
-    user-select: none; /* Propriété standard */
+
+#logotop,
+#backgroundTop,
+iframe,
+.inputnewsletter,
+#labelCondition,
+img,
+#footerbottom {
+    -moz-user-select: none;
+    /* Firefox */
+    -webkit-user-select: none;
+    /* Chrome, Safari, Opéra depuis la version 15 */
+    -ms-user-select: none;
+    /* Internet explorer depuis la version 10 et Edge */
+    user-select: none;
+    /* Propriété standard */
 }
-#cercleBottomImage{
+
+#cercleBottomImage {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: -25px;
 }
-#cercleBottomImage div{
+
+#cercleBottomImage div {
     width: 3px;
-    height:3px;
+    height: 3px;
     margin: 5px;
     border-radius: 50%;
     border: solid;
@@ -199,15 +246,17 @@ iframe{
     border-color: white;
     cursor: pointer;
 }
-#cercle1{
+
+#cercle1 {
     background-color: white;
 }
 
-#diaporama #imageAcitivity img{
+#diaporama #imageAcitivity img {
     width: 100%;
     border-radius: 8px;
 }
-.selecteurImage{
+
+.selecteurImage {
     width: 6%;
     background-color: #003566;
     height: 70px;
@@ -219,18 +268,26 @@ iframe{
     transition: all 0.3s ease-out;
 
 }
-.selecteurImage:hover{
+
+.selecteurImage:hover {
     background-color: #024686;
 }
-#texteSoustitreImage{
+
+#texteSoustitreImage {
     width: 100%;
     margin-top: 10px;
 }
-#diaporama .selecteurImage p{
+
+#diaporama .selecteurImage p {
     font-size: 25px;
 }
 
-#image2, #image3, #image4, #text2, #text3, #text4{
+#image2,
+#image3,
+#image4,
+#text2,
+#text3,
+#text4 {
     display: none;
 }
 
@@ -257,59 +314,66 @@ iframe{
     justify-content: space-evenly;
 }
 
-#partieText{
+#partieText {
     width: 40%;
 
 }
-#partieText h2{
+
+#partieText h2 {
     font-family: 'Nunito', sans-serif;
     font-size: 28px;
     margin: 40px 0;
 }
-.partietext{
+
+.partietext {
     margin: 20px 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
 }
 
-footer section{
+footer section {
     display: flex;
     padding: 40px 300px;
 
 }
-#footerprincipal{
+
+#footerprincipal {
     display: flex;
     justify-content: space-between;
 }
-#footerprincipal article{
+
+#footerprincipal article {
     width: 20%;
     margin: 5px;
 }
-footer{
+
+footer {
     background-color: #FFD60A;
     color: #003566;
 }
 
-footer h2{
+footer h2 {
     text-transform: uppercase;
     margin-bottom: 30px;
 }
-#planSite{
+
+#planSite {
     display: flex;
     flex-direction: column;
 }
 
 
-#planSite a{
+#planSite a {
     color: #003566;
     text-decoration: none;
     margin: 5px 0;
     transition: all 0.3s ease-out;
 
     font-family: 'PT Sans', sans-serif;
-    
+
 }
-#footerprincipal p{
+
+#footerprincipal p {
     color: #003566;
     text-decoration: none;
     margin: 5px 0;
@@ -318,33 +382,36 @@ footer h2{
     font-family: 'PT Sans', sans-serif;
 
     text-align: justify;
-    
+
 }
-#planSite a:hover{
+
+#planSite a:hover {
     color: #001d3d;
     text-decoration: underline;
 }
 
 #emailnews {
-    margin: 10px 0  ;
+    margin: 10px 0;
     height: 30px;
     border: none;
     padding-left: 2%;
     width: 80%;
     border-radius: 4px;
 }
+
 #emailnews:focus {
 
     outline: none;
 
 }
-#input{
+
+#input {
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
-#input div{
+#input div {
     width: 15%;
     background-color: #5189be;
     display: flex;
@@ -356,31 +423,36 @@ footer h2{
 
 
 }
-#input div:hover{
+
+#input div:hover {
     background-color: #003566;
 }
-#input div p{
+
+#input div p {
     color: white;
 }
 
-#contactfooter div{
+#contactfooter div {
     margin: 20px 0;
 }
-#finalfooter p{
+
+#finalfooter p {
     margin: 20px 0px;
 }
-footer img{
+
+footer img {
     width: 60%;
 }
 
 
-#footerbottom{
+#footerbottom {
     background-color: #000814;
     color: white;
     justify-content: space-between;
     font-family: 'PT Sans', sans-serif;
 }
-#footerbottom .reseaux{
+
+#footerbottom .reseaux {
     width: 40px;
     height: 40px;
     margin: 0 10px;
@@ -394,39 +466,67 @@ footer img{
 }
 
 
-#footerbottom div{
+#footerbottom div {
     display: flex;
     align-items: center;
     transition: all 0.3s ease-out, transform 900ms;
 }
-#footerbottom p{
+
+#footerbottom p {
     display: flex;
     align-items: center;
 }
 
-#textefoot p{
+#textefoot p {
     margin: 0 5px;
     transition: all 0.3s ease-out;
-    
+
 }
 
-#mentionlegales:hover, #confidentialite:hover{
+#mentionlegales:hover,
+#confidentialite:hover {
     color: #FFC300;
     cursor: pointer;
 }
 
-#textefoot #tousdroitsreserve{
+#textefoot #tousdroitsreserve {
     margin-left: 0px;
 }
 
+#programme p,
+#conference p {
+    text-align: justify;
+}
+
+#programme a {
+    color: #001d3d;
+    background-color: #FFD60A;
+    padding: 18px 32px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    margin: 75px;
+}
+
+#programme a:hover {
+    background-color: #0059ac;
+    color: white;
+    transition: all 0.3s ease-out;
+
+}
 
 /* Fading animation */
 .fade {
     animation-name: fade;
     animation-duration: 900ms;
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
