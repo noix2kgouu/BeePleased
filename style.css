@@ -1,0 +1,432 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+h3, h2, h1, p{
+    margin: 0px;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    margin: 0;
+    background-color: #FFD60A;
+}
+header nav{
+    background-color: #FFD60A;
+    height: 75px;
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    font-family: 'Spline Sans Mono', monospace;
+    font-size: 21px;
+}
+header nav a{
+    color: #003566;
+    text-decoration: none;
+    margin: 0px 35px;
+    transition: all 0.3s ease-out;
+
+}
+header nav a:hover{
+    color: #000814;
+    font-size: 22px;
+}
+#logotop img{
+    width: 80px;
+}
+#backgroundTop{
+    width: 100%;
+    margin: 0px;
+    margin-bottom: -4px;
+}
+
+#presentation{
+    background-color: #003566;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:80px 350px;
+    color: #FFC300;
+    text-align: center;
+}
+
+#presentation h1{
+    margin: 12px 0px 0px 0px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 34px;
+}
+#presentation h3{
+    font-family: 'Kanit', sans-serif;
+    font-size: 21PX;
+    color: #FFD60A;
+}
+.barreHorizontal{
+    height: 2px;
+    width: 10%;
+    background-color: white;
+    margin: 30px;
+}
+#presentation p, #seminaire p, #conference p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+#reseauxfirst{
+    display: flex;
+}
+#reseauxfirst a{
+    width: 45px;
+    height: 45px;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 50px 4px 0px 4px;
+
+    border-radius:50%;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    color: white;
+
+    transition: all 0.3s ease-out, transform 900ms;
+
+    text-decoration: none;
+}
+.instagram:hover{
+    background: #D60060;
+    transform: rotate(360deg);
+}
+.facebook:hover{
+    background: #1877f2;
+    transform: rotate(360deg);
+}
+.youtube:hover{
+    background: #f20000;
+    transform: rotate(360deg);
+}
+.linkedin:hover{
+    background: #016ca8;
+    transform: rotate(360deg);
+}
+
+#seminaire{
+    margin-top: 15px;
+    background: #001d3d;
+    color: white;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+#seminaire article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#seminaire h2, #conference h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 34px;
+}
+#seminaireTop {
+    padding:0 350px;
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+#programme {
+    width: 40%;
+    padding: 0 5% 0 5%;
+}
+#programme div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#programme h4{
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-size: 20px;
+}
+.impair{
+    color: #FFC300;
+}
+#diaporama{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    -moz-user-select: none; /* Firefox */
+    -webkit-user-select: none; /* Chrome, Safari, Opéra depuis la version 15 */
+    -ms-user-select: none; /* Internet explorer depuis la version 10 et Edge */
+    user-select: none; /* Propriété standard */
+}
+#imageAcitivity{
+    width: 85%;
+}
+iframe{
+    border-radius: 8px;
+}
+#logotop,#backgroundTop, iframe, .inputnewsletter,#labelCondition, img,#footerbottom{
+    -moz-user-select: none; /* Firefox */
+    -webkit-user-select: none; /* Chrome, Safari, Opéra depuis la version 15 */
+    -ms-user-select: none; /* Internet explorer depuis la version 10 et Edge */
+    user-select: none; /* Propriété standard */
+}
+#cercleBottomImage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+}
+#cercleBottomImage div{
+    width: 3px;
+    height:3px;
+    margin: 5px;
+    border-radius: 50%;
+    border: solid;
+    border-width: 2px;
+    border-color: white;
+    cursor: pointer;
+}
+#cercle1{
+    background-color: white;
+}
+
+#diaporama #imageAcitivity img{
+    width: 100%;
+    border-radius: 8px;
+}
+.selecteurImage{
+    width: 6%;
+    background-color: #003566;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+
+}
+.selecteurImage:hover{
+    background-color: #024686;
+}
+#texteSoustitreImage{
+    width: 100%;
+    margin-top: 10px;
+}
+#diaporama .selecteurImage p{
+    font-size: 25px;
+}
+
+#image2, #image3, #image4, #text2, #text3, #text4{
+    display: none;
+}
+
+#conference {
+    margin-top: 15px;
+    background-color: #003566;
+    color: #FFC300;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px 350px;
+}
+
+
+#localisation {
+    margin-top: 15px;
+    padding: 80px 350px;
+
+    display: flex;
+    background: #001d3d;
+    color: #FFC300;
+    justify-content: space-evenly;
+}
+
+#partieText{
+    width: 40%;
+
+}
+#partieText h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 28px;
+    margin: 40px 0;
+}
+.partietext{
+    margin: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+footer section{
+    display: flex;
+    padding: 40px 300px;
+
+}
+#footerprincipal{
+    display: flex;
+    justify-content: space-between;
+}
+#footerprincipal article{
+    width: 20%;
+    margin: 5px;
+}
+footer{
+    background-color: #FFD60A;
+    color: #003566;
+}
+
+footer h2{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+#planSite{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#planSite a{
+    color: #003566;
+    text-decoration: none;
+    margin: 5px 0;
+    transition: all 0.3s ease-out;
+
+    font-family: 'PT Sans', sans-serif;
+    
+}
+#footerprincipal p{
+    color: #003566;
+    text-decoration: none;
+    margin: 5px 0;
+    transition: all 0.3s ease-out;
+
+    font-family: 'PT Sans', sans-serif;
+
+    text-align: justify;
+    
+}
+#planSite a:hover{
+    color: #001d3d;
+    text-decoration: underline;
+}
+
+#emailnews {
+    margin: 10px 0  ;
+    height: 30px;
+    border: none;
+    padding-left: 2%;
+    width: 80%;
+    border-radius: 4px;
+}
+#emailnews:focus {
+
+    outline: none;
+
+}
+#input{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+#input div{
+    width: 15%;
+    background-color: #5189be;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+
+    transition: all 0.3s ease-out;
+
+
+}
+#input div:hover{
+    background-color: #003566;
+}
+#input div p{
+    color: white;
+}
+
+#contactfooter div{
+    margin: 20px 0;
+}
+#finalfooter p{
+    margin: 20px 0px;
+}
+footer img{
+    width: 60%;
+}
+
+
+#footerbottom{
+    background-color: #000814;
+    color: white;
+    justify-content: space-between;
+    font-family: 'PT Sans', sans-serif;
+}
+#footerbottom .reseaux{
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+
+#footerbottom div{
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-out, transform 900ms;
+}
+#footerbottom p{
+    display: flex;
+    align-items: center;
+}
+
+#textefoot p{
+    margin: 0 5px;
+    transition: all 0.3s ease-out;
+    
+}
+
+#mentionlegales:hover, #confidentialite:hover{
+    color: #FFC300;
+    cursor: pointer;
+}
+
+#textefoot #tousdroitsreserve{
+    margin-left: 0px;
+}
+
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 900ms;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
